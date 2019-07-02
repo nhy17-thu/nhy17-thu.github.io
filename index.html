@@ -7,9 +7,8 @@
 <h1>测试字体内容</h1>
 <p>大家好 这是我的个人主页</p>
 
-<img src="ext/homepage.JPG" title="My photo with google"
-     alt="My photo with google" width="400"
-     style="transform: rotate(-90deg);float: right;margin: 5px;">
+<img src="ext/homepage_compressed.jpg" title="My photo with google"
+     alt="My photo with google" id="google">
 
 
 </body>
@@ -18,8 +17,14 @@
 
 <style>
     body {
-        background: url(ext/background_trans.jpg) no-repeat rgba(0,0,0,0.15);
+        background: url(ext/background_trans_compressed.jpg) no-repeat rgba(0,0,0,0.15);
         background-size: cover;
+    }
+    #google {
+        transform: rotate(0deg);
+        float: right;
+        margin: 1em;
+        width: 25%;
     }
 
 </style>
