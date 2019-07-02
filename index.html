@@ -1,11 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Niu Haoyu's Homepage</title>
 </head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<h1>测试字体内容</h1>
+<p>大家好 这是我的个人主页</p>
+
+<h2>购物清单</h2>
+<ol>
+    <li>🍇</li>
+    <li>🍉</li>
+    <li>🍎</li>
+</ol>
+
+<a href="https://www.baidu.com">百度</a>
+
+<img src="ext/homepage.JPG" title="My photo with google"
+     alt="My photo with google" width="200" style="transform: rotate(-90deg)">
+<p></p>
+<p>
+    <label>
+        <input placeholder="请输入用户名">
+    </label>
+    <label>
+        <input type="number" min="1" max="10" value="3">
+    </label>
+</p>
+
+<p>
+    <label>
+        <input type="radio" name="sport">⚽️
+    </label>
+    <label>
+        <input type="radio" name="sport">🏀
+    </label>
+</p>
+
+<div class="toggle">
+    <input type="checkbox" checked id="t">
+    <label for="t"></label>
+</div>
+
 </body>
 </html>
+
+
+<style>
+    h1 {
+        color: blueviolet;
+        font-family: Kai,serif;
+    }
+    p {
+        font-size: 1em;
+    }
+    .toggle {
+        width: 80px;
+        height: 26px;
+        background: #333;
+        margin: 20px auto;
+        position: relative;
+        border-radius: 50px;
+        box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5),
+        0px 1px 0px rgba(255,255,255,0.2);
+    }
+    .toggle:after {
+        content: 'OFF';
+        color: #fff;
+        position: absolute;
+        right: 10px;
+        z-index: 0;
+        font: 12px/26px Arial, sans-serif;
+        font-weight: bold;
+        text-shadow: 1px 1px 0px rgba(255,255,255,.15);
+    }
+    .toggle:before {
+        content: 'ON';
+        color: #f66;
+        position: absolute;
+        left: 10px;
+        z-index: 0;
+        font: 12px/26px Arial, sans-serif;
+        font-weight: bold;
+    }
+    .toggle label {
+        display: block;
+        width: 34px;
+        height: 20px;
+        cursor: pointer;
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        z-index: 1;
+        background: #fcfff4;
+        background: linear-gradient(top, #fcfff4 0%,
+        #dfe5d7 40%, #b3bead 100%);
+        border-radius: 50px;
+        transition: all 0.4s ease;
+        box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+    }
+    .toggle input[type=checkbox] {
+        visibility: hidden;
+    }
+    .toggle input:checked + label {
+        left: 43px;
+    }
+</style>
