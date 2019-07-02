@@ -4,9 +4,7 @@
     <list default="true" id="a42505bb-e00e-4b18-b06d-c76996aad94e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/background_trans_compressed.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage_compressed.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,10 +18,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/index.html">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="686">
-              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+            <state relative-caret-position="-269">
+              <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -59,11 +57,6 @@
             <path>
               <item name="nhy17-thu.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="nhy17-thu.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nhy17-thu.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nhy17-thu.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -120,7 +113,7 @@
       <workItem from="1561987309153" duration="12192000" />
       <workItem from="1562067092037" duration="45000" />
       <workItem from="1562079077491" duration="5173000" />
-      <workItem from="1562084681577" duration="10000" />
+      <workItem from="1562084681577" duration="272000" />
     </task>
     <task id="LOCAL-00001" summary="Using header and contents.">
       <created>1561946605811</created>
@@ -133,7 +126,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19621000" />
+    <option name="totallyTimeSpent" value="19883000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="710" y="-1057" width="960" height="1057" extended-state="0" />
@@ -170,11 +163,17 @@
     <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/实验文档.md" />
     <entry file="file://$PROJECT_DIR$/20190702日志.md" />
-    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
+        <state relative-caret-position="144">
           <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-269">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
         </state>
       </provider>
     </entry>
