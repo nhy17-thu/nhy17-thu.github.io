@@ -1,15 +1,19 @@
 <!DOCTYPE html>
+<html lang="cmn">
 <head>
     <meta charset="UTF-8">
     <title>Niu Haoyu's Homepage</title>
 </head>
 <body>
-<h1>测试字体内容</h1>
-<p>大家好 这是我的个人主页</p>
-
-<img src="ext/homepage_compressed.jpg" title="My photo with google"
+<img src="homepage_compressed.jpg" title="My photo with google"
      alt="My photo with google" id="google">
-
+<section>
+    <h1>牛浩宇</h1>
+    <p>nhy17@mails.tsinghua.edu.cn</p>
+    <p>清华大学软件学院二年级本科生，金融方向第二学位在读</p>
+    <p>喜欢唱、跳、rap、篮球</p>
+    <p>MUSIC!</p>
+</section>
 
 </body>
 </html>
@@ -17,14 +21,27 @@
 
 <style>
     body {
-        background: url(ext/background_trans_compressed.jpg) no-repeat rgba(0,0,0,0.15);
+        background: url(background_trans_compressed.jpg) no-repeat fixed center;
         background-size: cover;
+        font-family: Arial, 'Times New Roman', STHeiti, sans-serif;
+        margin-top: 5em;
     }
+
+    h1 {
+        font-size: 200%;
+    }
+
     #google {
-        transform: rotate(0deg);
         float: right;
-        margin: 1em;
-        width: 25%;
+        margin-left: 5em;
+        margin-right: 5em;
+        width: 20em;
+    }
+
+    section {
+        margin-left: auto;
+        margin-right: auto;
+        width: 40em;
     }
 
 </style>
